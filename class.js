@@ -16,5 +16,10 @@ class first_class {
 
     show_power() {
         // method logic here
+        console.log("power is: ", this.power)
+    }
+
+    show_skill() {
+        console.log("skilled in: " this.skill ) // magic, combat, building, healing
     }
 }
