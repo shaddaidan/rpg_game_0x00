@@ -59,6 +59,10 @@ class scholar {
 
 }
 
+class teacher extends scholar {
+    
+}
+
 const sam = new scholar("sam", "fusion", 45 , 3)
 sam.get_info(barb1)
 
