@@ -41,4 +41,41 @@ barb2.show_skill()
 
 // you can console log the newly formed objects
 
-console.log(barb1)
+console.log(barb2)
+
+class scholar {
+    constructor(name, method, know_capacity, var_knowledge ){
+        this.name = name 
+        this.method = method
+        this.know_capacity = know_capacity
+        this.var_knowledge = var_knowledge
+
+    }
+
+    get_info(person){
+        let varia = person
+        console.log(varia, "got your info")
+    }
+
+}
+
+const sam = new scholar("sam", "fusion", 45 , 3)
+sam.get_info(barb1)
+
+
+
+class warrior {
+
+}
+
+class inventor {
+
+}
+
+class public_worker {
+
+}
+
+class politician {
+
+}
