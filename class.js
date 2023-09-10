@@ -38,3 +38,7 @@ console.log(barb2.power)
 barb1.show_power()
 
 barb2.show_skill()
+
+// you can console log the newly formed objects
+
+console.log(barb1)
